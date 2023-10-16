@@ -23,25 +23,29 @@ export default function Home() {
             </header>
             <main className='py-6 first:mt-0'>
                 <section className='px-10 py-10 border-[#463614] text-white border-2 m-20 bg-gray-950 bg-opacity-60 backdrop-blur-md'>
-                    <div className='flex'>
-                        <div className='mt-5'>
-                            <h1 className='text-6xl text-white'>Melina</h1>
-                            <p className='mt-5 mb-3 text-base italic'>Also known as The Kindling Maiden</p>
-                            <Image
-                                className='border-2 border-[#c49634]'
-                                width={600}
-                                height={200}
-                                src={'/melina_elden_rin.webp'}
-                                alt=''
-                            />
+                    <div className='flex flex-col'>
+                        <div className='flex'>
+                            <div className='mt-5'>
+                                <h1 className='text-6xl text-white'>Melina</h1>
+                                <p className='mt-5 mb-3 text-base italic'>Also known as The Kindling Maiden</p>
+                                <Image
+                                    className='border-2 border-[#c49634]'
+                                    width={600}
+                                    height={200}
+                                    src={'/melina_elden_rin.webp'}
+                                    alt=''
+                                />
+                            </div>
+                            <div id='quote' className='mt-32 w-[40%] ml-16 border-box text-xl'>
+                                    <p className='mt-5'>Melina is a mysterious, spectral girl who offers an alliance with the Tarnished to help them on their journey.</p>
+                                    <p className='mt-16 italic text-base first-letter:text-3xl'>“I can play the role of maiden. Turning rune fragments into strength. To aid you in your search for the Elden Ring. You need only take me with you. To the foot of the Erdtree.”</p>
+                                    <p className='mt-24'> — Ranni</p>
+                            </div>
                         </div>
-                        <div id='quote' className='mt-32 w-[40%] ml-16 border-box text-xl'>
-                            <p className='mt-5'>Melina is a mysterious, spectral girl who offers an alliance with the Tarnished to help them on their journey.</p>
-                            <p className='mt-16 italic text-base first-letter:text-3xl'>“I can play the role of maiden. Turning rune fragments into strength. To aid you in your search for the Elden Ring. You need only take me with you. To the foot of the Erdtree.”</p>
-                            <p className='mt-24'> — Ranni</p>
-                        </div>
+                        
+                        <p className='mt-10 mb w-[90%] ml-14'>Melina was born at the foot of the Erdtree and describes her mother as within the Erdtree. Although it is never stated, it can be inferred that her mother is Queen Marika the Eternal. During Boc's questline she asks if "being born of a mother" means acting in certain ways,which makes the specifics of her origins unclear. At some point, Melina's body was burned, which left her bodiless and as a roaming spirit with no memory of her purpose given to her by her mother.[5] And so, she looked for a way to go to the foot of the Erdtree to ascertain her given purpose, and to be able to govern her movement, seemingly lost as a spirit, meeting and travelling with Torrent at some time.</p>
+
                     </div>
-                    <p className='mt-10 mb w-[90%] ml-14'>Melina was born at the foot of the Erdtree and describes her mother as within the Erdtree. Although it is never stated, it can be inferred that her mother is Queen Marika the Eternal. During Boc's questline she asks if "being born of a mother" means acting in certain ways,which makes the specifics of her origins unclear. At some point, Melina's body was burned, which left her bodiless and as a roaming spirit with no memory of her purpose given to her by her mother.[5] And so, she looked for a way to go to the foot of the Erdtree to ascertain her given purpose, and to be able to govern her movement, seemingly lost as a spirit, meeting and travelling with Torrent at some time.</p>
                     
 
                     <div className='flex mt-10'>
