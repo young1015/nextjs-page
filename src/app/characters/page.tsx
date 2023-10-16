@@ -4,16 +4,17 @@ export default function Home() {
     return (
         <>
             <header id='top' className='h-[14vh] top-0 flex place-items-center p-6 justify-center bg-black'>
-                <div className='flex hover:scale-105 transition duration-300 w-[20%] justify-center'>
-                    <Image
-                        className='h-[100%]'
-                        width={220}
-                        height={220}
-                        src={'/eldenring_new.webp'}
-                        alt=''
-
-                    />
-                </div>
+                    <div className='flex hover:scale-105 transition duration-300 w-[20%] justify-center'>
+                        <a href="/">
+                            <Image
+                                className='h-[100%]'
+                                width={220}
+                                height={220}
+                                src={'/eldenring_new.webp'}
+                                alt=''
+                            />
+                        </a>
+                    </div>
                 <nav className='flex space-x-4'>
                     <a className='text-white text-xl px-4 py-2 hover:text-[#C19D52] transition' href="/">Home</a>
                     <a className='text-white text-xl px-4 py-2 hover:text-[#C19D52] transition' href="characters">Characters</a>
@@ -39,7 +40,7 @@ export default function Home() {
                             <div id='quote' className='mt-32 w-[40%] ml-16 border-box text-xl'>
                                     <p className='mt-5'>Melina is a mysterious, spectral girl who offers an alliance with the Tarnished to help them on their journey.</p>
                                     <p className='mt-16 italic text-base first-letter:text-3xl'>“I can play the role of maiden. Turning rune fragments into strength. To aid you in your search for the Elden Ring. You need only take me with you. To the foot of the Erdtree.”</p>
-                                    <p className='mt-24'> — Ranni</p>
+                                    <p className='mt-24'> — Melina</p>
                             </div>
                         </div>
                         
@@ -63,7 +64,7 @@ export default function Home() {
                         <div id='quote' className='mt-32 w-[40%] ml-16 border-box text-xl'>
                             <p className='mt-5'>Ranni the Witch is one of the Demigods, and the focus of one of the game's most elaborate questlines.</p>
                             <p className='mt-8 italic text-base first-letter:text-3xl'>“I am the witch Ranni. I stole Death long ago, and search now for the dark path. That I might one day upend the whole of it, and rid the world of all that came before."</p>
-                            <p className='mt-24'> — Melina</p>
+                            <p className='mt-24'> — Ranni</p>
                         </div>
                     </div>
                     <p className='mt-10 mb w-[90%] ml-14'>Originally known as Lunar Princess Ranni, she was the daughter of Radagon, a champion of the Golden Order, and Queen Rennala, head of both the Carian Royal Family and the Academy of Raya Lucaria. She had two older brothers, Radahn and Rykard. Ranni was also an Empyrean, meaning she had the potential to one day succeed Queen Marika as the divine ruler of the Lands Between. The Two Fingers chose her as a potential successor and granted her a Shadow by the name of Blaidd to be her vassal. He was approved of by Rennala, and was raised as her foster brother. Ranni grew up playing with Blaidd, and they were often accompanied by Iji, a troll blacksmith who served the Carian royals. Led by the hand of her mother Rennala, young Ranni would encounter her Dark Moon. What she beheld was cold, dark and veiled in occult mystery. Deep in the woods, she would also encounter a snowy crone, known simply as the "Snow Witch", who would go on to become her secret mentor. She was an old witch well versed in cold-based sorceries, and she taught Ranni to fear the dark moon as she imparted her cold sorcery. The full Dark Moon, cold and leaden, would become Ranni's sigil and symbol of her power and authority. At some point, Ranni's father would abandon her mother in order to marry Queen Marika and assume the title of second Elden Lord. Ranni and her siblings were thus raised to demigod status by their new stepmother.</p>

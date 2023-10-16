@@ -5,14 +5,16 @@ export default function Home() {
     <>
        <header id='top' className='h-[14vh] top-0 flex place-items-center p-6 justify-center bg-black'>
           <div className='flex hover:scale-105 transition duration-300 w-[20%] justify-center'>
-            <Image 
+            <a href="/">
+              <Image
                 className='h-[100%]'
                 width={220}
                 height={220}
                 src={'/eldenring_new.webp'}
                 alt=''
               />
-          </div>
+          </a>
+        </div>
           <nav className='flex space-x-4'>
               <a className='text-white text-xl px-4 py-2 hover:text-[#C19D52] transition' href="/">Home</a>
               <a className='text-white text-xl px-4 py-2 hover:text-[#C19D52] transition' href="characters">Characters</a>
