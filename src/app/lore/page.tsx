@@ -17,17 +17,24 @@ export default function Home() {
               <a className='text-white text-xl px-4 py-2 hover:text-[#C19D52] transition' href="/">Home</a>
               <a className='text-white text-xl px-4 py-2 hover:text-[#C19D52] transition' href="characters">Characters</a>
               <a className='text-white text-xl px-4 py-2 hover:text-[#C19D52] transition' href="lore">Lore</a>  
-              <a className='text-white text-xl px-4 py-2 hover:text-[#C19D52] transition'href="map">Map</a>  
+              <a className='text-white text-xl px-4 py-2 hover:text-[#C19D52] transition' href="map">Map</a>  
           </nav>
       </header>
       <main>
-        <div className='flex items-center justify-center'>
-          <video autoPlay style={{ width: '800px', height: '450px' }}>
-          <source src="/video1.mp4" />
-          </video>
+        <div className='flex justify-center items-center mt-10'>
+          <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/DYDs_Inzkz4?si=Oy38O0ziHcKU3x4J" 
+            title="YouTube video player" 
+            frameBorder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowFullScreen>
+          </iframe>
         </div>
+        
       </main>
-      <footer className='bg-black text-white flex justify-around py-10 bottom-0 flex-wrap'>
+      <footer className='bg-black text-white flex justify-around py-10 fixed bottom-0 flex-wrap'>
         <div>
           <h1 className='text-lg text font-bold'>Related Info</h1>
           <ol>
@@ -37,7 +44,7 @@ export default function Home() {
           </ol>
         </div>
         <div>
-        <a href="#top" className='hover:text-[#C19D52] transition'>Back to Top</a>
+          <a href="#top" className='hover:text-[#C19D52] transition'>Back to Top</a>
         </div>
         <div className='w-[30%] h-24 flex flex-col'>
           <h1 className='text-lg text font-bold'>Disclaimer</h1>

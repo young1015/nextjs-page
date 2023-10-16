@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face { 
+    font-family: "Mantinia"; 
+    src: url('../../public/fonts/Mantinia-Regular.otf'); 
+    font-weight: normal; 
+    font-style: normal; 
+  } 
+
+  #mantinia {
+    font-family: "Mantinia";
+  }

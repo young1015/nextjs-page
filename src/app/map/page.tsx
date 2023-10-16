@@ -24,8 +24,9 @@ export default function Home() {
           </nav>
       </header>
       <main>
-        <h1>The Lands</h1>
-        <div className='flex justify-center items-center'>
+        <h1 id='mantinia' className='text-[#C19D52] px-4 py-4 text-6xl justify-center flex items-center'>The Lands Between</h1>
+        <span className='text-white justify-center flex items-center text-xs'>click to zoom</span>
+        <div className='flex justify-center items-center mb-10'>
           <InnerImageZoom
             height={500}
             width={900}
