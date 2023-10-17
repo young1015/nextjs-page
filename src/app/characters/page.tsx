@@ -39,12 +39,12 @@ export default function Home() {
                             </div>
                             <div id='quote' className='mt-32 w-[40%] ml-16 border-box text-xl'>
                                     <p className='mt-5'>Melina is a mysterious, spectral girl who offers an alliance with the Tarnished to help them on their journey.</p>
-                                    <p className='mt-16 italic text-base first-letter:text-3xl'>“I can play the role of maiden. Turning rune fragments into strength. To aid you in your search for the Elden Ring. You need only take me with you. To the foot of the Erdtree.</p>
+                                    <p className='mt-16 italic text-base first-letter:text-3xl'>I can play the role of maiden. Turning rune fragments into strength. To aid you in your search for the Elden Ring. You need only take me with you. To the foot of the Erdtree.</p>
                                     <p className='mt-24'> — Melina</p>
                             </div>
                         </div>
                         
-                        <p className='mt-10 mb w-[90%] ml-14'>Melina was born at the foot of the Erdtree and describes her mother as within the Erdtree. Although it is never stated, it can be inferred that her mother is Queen Marika the Eternal. During Bocs questline she asks if being born of a mother means acting in certain ways,which makes the specifics of her origins unclear. At some point, Melinas body was burned, which left her bodiless and as a roaming spirit with no memory of her purpose given to her by her mother.[5] And so, she looked for a way to go to the foot of the Erdtree to ascertain her given purpose, and to be able to govern her movement, seemingly lost as a spirit, meeting and travelling with Torrent at some time.</p>
+                        <p className='mt-10 mb w-[90%] ml-14'>Melina was born at the foot of the Erdtree and describes her mother as within the Erdtree. Although it is never stated, it can be inferred that her mother is Queen Marika the Eternal. During Bocs questline she asks if being born of a mother means acting in certain ways,which makes the specifics of her origins unclear. At some point, Melinas body was burned, which left her bodiless and as a roaming spirit with no memory of her purpose given to her by her mother. And so, she looked for a way to go to the foot of the Erdtree to ascertain her given purpose, and to be able to govern her movement, seemingly lost as a spirit, meeting and travelling with Torrent at some time.</p>
 
                     </div>
                     
@@ -105,7 +105,7 @@ export default function Home() {
                         </div>
                         <div className='mt-48 w-[40%] ml-16 border-box text-xl'>
                             <p>Queen Marika the Eternal is the reigning divine sovereign of the Lands Between, and a vessel for the Elden Ring. Her offspring possess demigod status and are bearers of the Great Runes.</p>
-                            <p className='mt-9 italic text-base first-letter:text-3xl'>“Let a new epoch begin. An epoch glistening with life. Brandish the Elden Ring, for the Age of the Erdtree!”</p>
+                            <p className='mt-9 italic text-base first-letter:text-3xl'>Let a new epoch begin. An epoch glistening with life. Brandish the Elden Ring, for the Age of the Erdtree!</p>
                             <p className='mt-16'> — Queen Marika the Eternal</p>
                         </div>
                     </div>
