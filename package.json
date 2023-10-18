@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/font": "^13.5.5",
     "@react-native-community/blur": "^4.3.2",
     "next": "latest",
     "react": "latest",
