@@ -22,7 +22,6 @@ export default function RootLayout({
       <body style={{backgroundImage:`url("https://eldenring.wiki.fextralife.com/file/Elden-Ring/elden-ring-wiki-guide-walkthrough-background-min.jpg")`}} className={inter.className='bg-fixed'} >
         <Header/>
         {children}
-        <Footer/>
         
         </body>
     </html>

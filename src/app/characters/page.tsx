@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Footer from '../components/Footer'
 
 export default function Home() {
     return (
@@ -91,9 +92,9 @@ export default function Home() {
                         </div>
                     </div>
                     <p className='mt-10 mb w-[90%] ml-14'>Queen Marika was originally of the same stock as the Numen people. She was an Empyrean who would ascend to godhood and become the vessel of the Elden Ring. As an Empyrean, she was gifted a shadow, her half-brother Maliketh. Desiring a world free of Destined Death, she removed the Rune of Death from the Elden Ring, and had her shadow Maliketh guard it, thus establishing the Golden Order. Marika took a consort, Godfrey, who became the first Elden Lord. In the early days, everything was in opposition to the Erdtree, but with Godfrey at the head of her armies, Marika persevered and the Erdtree would reign supreme as the embodiment of the Golden Order itself. One of these wars was waged against the Fire Giants, who met defeat when Marika slew their fell god. Unable to extinguish the Flame of Ruin atop the frigid northern mountains, a credible threat to the Erdtree, she cursed the last of the giants to forever tend to it. Fire Monks, who had fought on the side of the Erdtree during the war against the Fire Giants, were also left behind to watch over the flame, some of whom fell under the spell of the fire and began worshipping the Fire God. With the Erdtree now supreme, Marika and Godfrey would rule together and have at least three children: Godwyn the Golden and the twins Morgott and Mohg. The twins were both born as accursed Omen, and were hidden in the depths below the capital. Even so, Godfrey, as well as his and Marikas offspring, would always be counted as the first of the demigods, and would forever be known as the Golden Lineage. With her rule secure, Marika announced her intention to search the depths of the Golden Order, declaring the early days of blind belief a thing long past. When Godfreys last foe fell it was said the hue of his eyes had faded. Marika banished him and his kinfolk from the Lands Betweend, robbing them of their grace, thus creating the first Tarnished, all in the hope that they would grow stronger by waging war in lands outside her rule, dying, and then be revived and eventually brought back with their guidance of grace returned. After Godfreys banishment from the Lands Between, Marika took Radagon as second husband and King Consort, elevating him to become the second Elden Lord.[18] Radagon already had three children with Queen Rennala of the Carian Royal Family, and after his union with Marika, she would raise her new step-children Radahn, Rykard and Ranni to demigod status. Marika and Radagon would go on to have two children of their own, the twins Malenia and Miquella, who like Marika herself and Radagons daughter Ranni, were Empyreans, and were thus potential successors to Marika. However, Radagon and Marika were in truth one and the same, in fact Radagon was described as Marikas male other self. Thus the twins were the children of a single god, and they were both born afflicted: Malenia with rotting sickness and Miquella with eternal childhood.</p>
-                    
                 </section>
             </main>
+            <Footer/>
         </>
     )
 }

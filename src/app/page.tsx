@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import Header from './components/Header'
+import FooterAlt from './components/FooterAlt'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
             </div>
           </section>
         </main>
+        <FooterAlt/>
     </>
     
   )

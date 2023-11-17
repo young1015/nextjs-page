@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import FooterAlt from '../components/FooterAlt'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
           </iframe>
         </div>
       </main>
+      <FooterAlt/>
     </>
   )
 }
