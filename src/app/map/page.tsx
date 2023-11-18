@@ -22,6 +22,8 @@ export default function Home() {
           </div>
       </main>
       <Footer/>
+      {/* //https://github.com/vercel/next.js/discussions/13356 */}
     </>    
   )
 }
+
